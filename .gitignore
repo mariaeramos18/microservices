@@ -21,6 +21,8 @@ pnpm-debug.log*
 prisma/dev.db
 prisma/dev.db-journal
 prisma/migrations/dev.db*
+prisma/**/generated/
+node_modules/.prisma/
 
 # Cobertura de testes
 coverage/
@@ -39,3 +41,11 @@ Thumbs.db
 .eslintcache
 
 generated/
+
+# IDE
+.vscode/
+.idea/
+
+# OneDrive / temp
+*.tmp
+~$*
